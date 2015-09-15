@@ -1,0 +1,37 @@
+{
+	"vertices": [{
+		"name": "Aksiotheata",
+		"id": 0,
+		"top" : {
+			"radius": 0.9,
+			"latitude": 2.0,
+			"longitude": 3.0
+		}
+	},
+	{
+		"name": "Akropolis",
+		"id": 1,
+		"top" : {
+			"latitude": 2.0,
+			"longitude": 3.0,
+			"radius": 0.9
+		}
+	},
+	{
+		"name": "Thiseio",
+		"id": 2,
+		"top" : {
+			"latitude": 2.0,
+			"longitude": 3.0,
+			"radius": 0.9
+		}
+	}],
+	"links": [{
+		"from": 0,
+		"to": 1
+	},
+	{
+		"from": 0,
+		"to": 2
+	}]
+}

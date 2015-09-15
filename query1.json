@@ -1,0 +1,8 @@
+{
+	"term_query" :
+					{
+					"t_keywords": ["sofia"],
+					"t_and" : "true",
+					"c_and" : "true"
+					}
+}

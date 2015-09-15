@@ -1,0 +1,158 @@
+{
+	"vertices": [		
+        {
+		"title": "city","comments" : "the name",
+		"coreid": 0
+        },
+        {
+		"title": "street","comments" : "the name",
+		"coreid": 1
+        },
+        {
+		"title": "site","comments" : "the name",
+		"coreid": 2
+        },
+        {
+		"title": "square","comments" : "the name",
+		"coreid": 3
+        },
+        {
+		"title": "park","comments" : "the name",
+		"coreid": 4
+        },
+        {
+		"title": "building","comments" : "the name",
+		"coreid": 5
+        },
+        {
+		"title": "area","comments" : "the name",
+		"coreid": 6
+        },
+        {
+		"title": "theatre","comments" : "the name",
+		"coreid": 7
+        },
+        {
+		"title": "temple","comments" : "the name",
+		"coreid": 8
+        },
+        {
+		"title": "culture","comments" : "the name",
+		"coreid": 9
+        },
+        {
+		"title": "monument","comments" : "the name",
+		"coreid": 10
+        },
+        {
+		"title": "event","comments" : "the name",
+		"coreid": 11
+        },
+        {
+		"title": "ancient","comments" : "the name",
+		"coreid": 12
+        },
+        {
+		"title": "concert","comments" : "the name",
+		"coreid": 13
+        },
+        {
+		"title": "performance","comments" : "the name",
+		"coreid": 14
+        },        
+        {
+		"title": "Athens","comments" : "the name",
+		"coreid": 15,
+		"top" : {
+                  "latitude": 37.981243,
+                  "longitude": 23.72807,
+                  "radius": 20000
+              }
+        },
+        {
+		"title": "Acropolis","comments" : "the name",
+		"coreid": 16,
+		"top" : {
+			"latitude": 37.971598,
+			"longitude": 23.725754,
+			"radius": 2000
+              }
+        },
+        {
+  		"title": "Thiseio","comments" : "the name",
+		"coreid": 17,
+		"top" : {
+                    "latitude": 37.977167,
+                    "longitude": 23.72056,
+                    "radius": 3000
+            } 
+        },
+        {
+  		"title": "Monastiraki","comments" : "the name",
+		"coreid": 18,
+		"top" : {
+                    "latitude": 37.976575,
+                    "longitude": 23.725903,
+                    "radius": 3000
+            } 
+        },
+        {
+  		"title": "Plaka","comments" : "the name",
+		"coreid": 19,
+		"top" : {
+                    "latitude": 37.9736909,
+                    "longitude": 23.7279976,
+                    "radius": 3000
+            } 
+        },
+        {
+  		"title": "Parthenon","comments" : "the name",
+		"coreid": 20,
+		"top" : {
+                    "latitude": 37.971523,
+                    "longitude": 23.7268346,
+                    "radius": 300
+            } 
+        },
+        {
+  		"title": "Erectheion","comments" : "the name",
+		"coreid": 21,
+		"top" : {
+                    "latitude": 37.972077,
+                    "longitude": 23.726532,
+                    "radius": 150
+            } 
+        }        
+    ],
+    
+    
+	"links": [	  
+      { 	"from": 0, 		"to": 1        },
+      {		"from": 0, 		"to": 2        },
+      {		"from": 2,      "to": 3      },
+      {		"from": 2,		"to": 4      },
+      {		"from": 2,		"to": 5      },
+      {		"from": 2,		"to": 6      },
+      {		"from": 5,      "to": 7    },
+      {		"from": 5,      "to": 8    },
+      {		"from": 9,     "to": 10    },
+      {		"from": 9,     "to": 11   },
+      {		"from": 10,     "to": 12   },
+      {		"from": 11,     "to": 13    },
+      {		"from": 11,     "to": 14    },
+      {		"from": 15,     "to": 16    },
+      {		"from": 15,     "to": 17    },
+      {		"from": 15,     "to": 18    },
+      {		"from": 15,     "to": 19    },
+      {		"from": 16,     "to": 6    },
+      {		"from": 16,     "to": 20    },
+      {		"from": 16,     "to": 21    },
+      {		"from": 17,     "to": 6    },
+      {		"from": 18,     "to": 6    },
+      {		"from": 19,     "to": 6    },
+      {		"from": 20,     "to": 8   },
+      {		"from": 20,     "to": 12    },
+      {		"from": 21,     "to": 8   },
+      {		"from": 21,     "to": 12    }      
+    ]
+}

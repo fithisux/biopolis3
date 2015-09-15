@@ -1,0 +1,21 @@
+{
+"query": {
+	"term_query": {
+		"t_keywords": ["sofia"],
+		"t_and": "true",
+		"c_and": "true"
+	},
+	"model_query": {
+		"tags": ["0"]
+	},
+	"spatial_query": {
+		"radius": 10,
+		"longitude": "2",
+		"latitude": "1"
+	}
+},
+"username" : "vasilis",
+"title" : "sofia library",
+"comments" : "hers"
+
+}
